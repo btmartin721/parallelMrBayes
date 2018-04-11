@@ -46,7 +46,7 @@ undef @data;
 undef @names;
 $taxa = 0;
  
-    open ( FILE, "$file" ) || die "Do I need to call the short bus?\nCan't open $file: $!\n";
+    open ( FILE, "$file" ) || die "\nCan't open $file: $!\n";
 	while ( <FILE> ){
 			chomp;
 			 
@@ -71,7 +71,7 @@ $taxa = 0;
 	$filepath =~ /(\w+)\.\w/;
 	my $ID = $1;
 
-    open( OUT, '>', "$dirpath$ID.nex" ) || die "Do I need to call the short bus?\nCan't write to $ID.nex\n";		
+    open( OUT, '>', "$dirpath$ID.nex" ) || die "\nCan't write to $ID.nex\n";		
          print OUT "#NEXUS\n\n";    
          print OUT "BEGIN DATA;
 DIMENSIONS NTAX=$taxa NCHAR=$nchar;
@@ -103,7 +103,7 @@ Mandatory
 		'input|i=s'		=>	\$input,
 		);
 		
-	$input or die "\n\nDo I need to call the short bus?: Input not specified!\n\n$usage\n"; 
+	$input or die "\n\nInput not specified!\n\n$usage\n"; 
 }
 
 #########################################################################
