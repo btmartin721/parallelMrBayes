@@ -3,7 +3,8 @@
 
 **Runs MrBayes on multiple loci in parallel. Also automatically writes a MrBayes block into each nexus file**
 
-`Usage: ./parallelMB.pl -i /path/to/dir/*.nex -p <#processors> [options]...`
+Usage:  
+`./parallelMB.pl -i /path/to/dir/*.nex -p <#processors> [options]...`
 
 Each locus must be a separate nexus file  
 MrBayes (mb) and mbsum (BUCKy - Bayesian Concordance Analysis) must be in your path  
