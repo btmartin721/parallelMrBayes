@@ -11,5 +11,5 @@ MrBayes (mb) and mbsum (BUCKy - Bayesian Concordance Analysis) must be in your p
 The script takes nexus files as input, but can also convert .fasta to .nex format  
 If you want the script to convert .fasta files to .nex, use the [-e, --nex] option  
 
-Here's a conversion script to go from .loci (outfile from pyRAD) to .fasta: [file_converters repository](https://github.com/btmartin721/file_converters/loci2fasta.py)  
+Here's a conversion script to go from .loci (outfile from pyRAD) to .fasta: [file_converters repository](https://github.com/btmartin721/file_converters/blob/master/loci2phylip.py)  
 
