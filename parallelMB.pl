@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-
+# Written by B.T. Martin and T.K. Chafin
 
 use strict;
 use warnings;

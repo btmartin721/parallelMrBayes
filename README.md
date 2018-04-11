@@ -1,6 +1,7 @@
 # parallelMrBayes
-Runs MrBayes on multiple loci in parallel
-Also writes a MrBayes block into each nexus file
+Written by B.T. Martin and T.K. Chafin
+
+Runs MrBayes on multiple loci in parallel. Also automatically writes a MrBayes block into each nexus file
 
 Usage: ./parallelMB.pl -i /path/to/dir/*.nex -p <#processors> [options]...
 
